@@ -78,7 +78,6 @@
             </div>
         </section>
     </main>
-
        <!-- <aside>
         <h2>Partner</h2>
         <ul>
@@ -110,9 +109,7 @@
 
         cards.forEach(card => {
             card.addEventListener("click", () => {
-                // Inhalt klonen
                 const clone = card.cloneNode(true);
-                // alten Inhalt entfernen
                 lightboxContent.innerHTML = "";
                 lightboxContent.appendChild(clone);
                 lightbox.style.display = "flex";

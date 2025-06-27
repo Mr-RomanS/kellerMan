@@ -57,11 +57,13 @@ main{
 }
 .section-1{
     position: relative;
-}
-.haupt-menu{
     width: 100%;
     height: 100vh;
     background: linear-gradient(to top, #4b4242, #1c1c1c);
+}
+.haupt-menu{
+    
+    
     position: relative;
 }
 .haupt-menu ul{
@@ -69,7 +71,7 @@ main{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 10%;
+    top: 100px;
     left: 5%;
 }
 .haupt-menu li{
@@ -230,7 +232,6 @@ main{
 }
 .prew{
     width: 85%;
-    top: 24%;
 }
 .prew img {
     width: 35%;
@@ -239,11 +240,15 @@ main{
 .fa-arrow-down{
     display: none;
 }
-
-.button-down{
-    font-size: 1rem;
-    left: 120px;
-    bottom: 0;
-animation: flip-up 3s ease infinite;
+}
+@media (max-width:550px){
+.section-1{
+    height: 75vh;
+}
+#welkomZuWerk{
+    padding: 1rem;
+}
+#welkomZuWerk h1{
+    font-size: 2rem;
 }
 }
