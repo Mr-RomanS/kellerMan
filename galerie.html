@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Master custom messers">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="galerie.css
+    ">
+    <title>Über Mich</title>
+</head>
+<body>
+      <header class="top-menu">
+      <details class="mobile-menu">
+        <summary><i class="fa-solid fa-bars"></i></summary>
+        <ul class="hidden-menu">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="product.html">Produkt</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="about.html">Über Mich</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </details>
+
+        <a class="logo" href="index.html"><img src="img/logo.jpg" alt="logo"></a>
+        <nav>
+            <ul>
+               <li><a href="index.html">Startseite</a></li>
+               <li><a href="product.html">Produkt</a></li>
+               <li><a href="galerie.html">Galerie</a></li>
+               <li><a href="about.html">Über Mich</a></li>
+               <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+      <section class="kategorie"><h1>Meine Galerie</h1>
+        <div>   
+          <img src="img/gallery.png" alt="Leprikone">
+        <p><strong>J</strong>edes Stück hier ist nicht einfach ein Gegenstand,
+          <br> sondern eine Geschichte, erzählt von Holz und Metall. 
+          <br> In dieser Galerie können Sie meine Arbeiten sehen und  
+          <br>einen Blick hinter die Kulissen ihrer Entstehung werfen.
+        </p>   
+        </div>
+      </section>
+<hr>
+      <section class="galerie">
+        
+        <div class="bilder-container">
+          <img src="img/galerie/IMAGE 2025-04-30 11:14:06.jpg" alt="">
+          <img src="img/galerie/IMG-20230511-WA0013.jpg" alt="" class="versteckt">
+          <img src="img/galerie/IMG_20230608_025303.jpg" alt="" class="versteckt">
+          <img src="img/galerie/1.jpg" alt="" class="versteckt">
+        </div>
+        <div class="bilder-container">
+          <img src="img/galerie/IMG_20230430_191920.jpg" alt="">
+          <img src="img/galerie/14.jpg" alt="" class="versteckt">
+          <img src="img/galerie/29.jpg" alt="" class="versteckt">
+          <img src="img/galerie/3.jpg" alt="" class="versteckt">
+        </div>
+        <div class="bilder-container">
+          <img src="img/galerie/IMG_20230514_203318.jpg" alt="">
+          <img src="img/galerie/IMG_20230629_183925.jpg" alt="" class="versteckt">
+          <img src="img/galerie/49.jpg" alt="" class="versteckt">
+          <img src="img/galerie/63.jpg" alt="" class="versteckt">
+        </div>
+        <div class="bilder-container">
+          <img src="img/galerie/IMG-20230606-WA0022.jpeg" alt="">
+          <img src="img/galerie/IMG_20230608_025324.jpg" alt="" class="versteckt">
+          <img src="img/galerie/79.jpg" alt="" class="versteckt">
+          <img src="img/galerie/8.jpg" alt="" class="versteckt">
+        </div>
+      </section>
+        <button id="mehrAnzeigen">Mehr anzeigen</button>
+    </main>
+     <!-- <aside>
+        <h2>Partner</h2>
+        <ul>
+            <li><a href="">compani1 <img src="https://plus.unsplash.com/premium_photo-1726768940293-f88db1fb8feb?q=80&w=3237&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="logo"> </a></li>
+            <li><a href="">compani1 <img src="https://plus.unsplash.com/premium_photo-1726768940293-f88db1fb8feb?q=80&w=3237&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="logo"></a></li>
+            <li><a href="">compani1 <img src="https://plus.unsplash.com/premium_photo-1726768940293-f88db1fb8feb?q=80&w=3237&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="logo"></a></li>
+            <li><a href="">compani1 <img src="https://plus.unsplash.com/premium_photo-1726768940293-f88db1fb8feb?q=80&w=3237&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="logo"></a></li>
+        </ul>
+    </aside> -->
+
+         <footer>
+        Impressum Angaben gemäß § 5 TMG: Wladimir Kurmazenko 57072 Siegen
+        Deutschland Kontakt: E-Mail: kreativkellrmann@web.com Verantwortlich für
+        den Inhalt nach § 55 Abs. 2 RStV: Wladimir Kurmazenko.
+        &copy;
+    </footer>
+
+    <!-- Lightbox-Container -->
+<div id="lightbox" style="display: none;">
+  <span id="closeBtn">&times;</span>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+    <script>
+  document.getElementById('mehrAnzeigen').addEventListener('click', function () {
+    const versteckteBilder = document.querySelectorAll('.bilder-container .versteckt');
+    versteckteBilder.forEach(bild => bild.style.display = 'inline-block');
+    this.style.display = 'none';
+  });
+</script>
+<script>
+  const bilder = document.querySelectorAll('.bilder-container img');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const closeBtn = document.getElementById('closeBtn');
+
+  bilder.forEach(bild => {
+    bild.addEventListener('click', () => {
+      lightboxImg.src = bild.src;
+      lightbox.style.display = 'flex';
+    });
+  });
+
+  closeBtn.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+  });
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+      lightbox.style.display = 'none';
+    }
+  });
+</script>
+
+</body>
+</html>

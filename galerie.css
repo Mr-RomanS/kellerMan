@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.versteckt {
+    display: none;
+}
+main{
+    max-width: 1300px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    margin: 120px auto 1rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.kategorie{
+    width: 100%;
+    height: auto;
+}
+.kategorie div{
+    width: 100%;
+    padding: 1rem;
+}
+.kategorie div::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kategorie h1{
+    font-size: 3rem;
+    width: auto;
+    margin: 1rem;
+}
+.kategorie p{
+    font-size:2rem;
+    padding: 5rem 0 2rem;
+    flex-wrap: wrap;
+}
+.kategorie strong{
+    font-size: 3rem;
+}
+.kategorie img{
+    width: 250px;
+    height: auto;
+    float: right;
+    top: 0;
+}
+.galerie{
+    margin:3rem 0 4rem ;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.bilder-container{
+    text-align: center;
+}
+.bilder-container img{
+    padding: 1rem;
+    width: 100%;
+}
+#mehrAnzeigen{
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    bottom: 50px;
+    left: 51%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+#lightbox img {
+  max-width: 90%;
+    max-height: 80%;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+#closeBtn {
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+}
+#closeBtn:hover {
+    color: #ff6b6b;
+}
+@media (max-width:1050px){
+.galerie{
+    grid-template-columns: repeat(2, 1fr);
+}
+.kategorie p{
+    font-size:1.5rem;
+}
+}
+@media (max-width: 768px) {
+main{
+    margin-top: 60px;
+}
+
+.kategorie h1{
+    font-size: 1.8rem;
+}
+.kategorie p{
+    font-size:1.3rem;
+   padding: 0.5rem;
+}
+.kategorie img{
+    width: 150px;
+}
+
+
+  #lightbox img {
+    width: 90vw;
+    height: auto;
+    max-height: 90vh;
+    object-fit: contain;
+  }
+
+  /* #closeBtn {
+    font-size: 50px;
+    top: 30px;
+    right: 30px;
+    color: rgb(156, 7, 7);
+  } */
+  .galerie{
+    grid-template-columns: repeat(1, 1fr);
+}
+}

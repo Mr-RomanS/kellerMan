@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #333;
+}
+main {
+  max-width: 1300px;
+  margin: 120px auto 1rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+article {
+  margin-bottom: 2rem;
+}
+#kontaktMap{
+  display: flex;
+  justify-content: space-between;
+}
+iframe{
+  width:50%;
+  height: 350px;
+  border: none;
+}
+#formKontakt{
+  width: 50%;
+  padding: 1.5rem;
+}
+#formKontakt h2{
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: black;
+  outline: none;
+}
+
+button,
+input[type="reset"] {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
+}
+
+button:hover {
+  background-color: green;
+}
+
+input[type="reset"] {
+  background-color: #e0e0e0;
+  color: #333;
+  margin-left: 1rem;
+}
+
+input[type="reset"]:hover {
+  background-color: #c4c4c4;
+}
+
+form > div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+@media (max-width: 768px){
+  #kontaktMap{
+  display: flex;
+  flex-direction: column;
+}
+#formKontakt{
+  width: 100%;
+ margin: auto;
+}
+iframe{
+  width:100%;
+  height: 350px;
+  border: none;
+}
+}
