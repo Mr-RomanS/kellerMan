@@ -144,7 +144,7 @@ h4 {
     top: 20px;
     right: 30px;
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     cursor: pointer;
     z-index: 1001;
     transition: color 0.2s ease;
@@ -159,7 +159,7 @@ h4 {
    
 }
 @media (max-width: 750px) {
-    main {
+main {
     padding: 2rem 10px;
 }
 .product {
@@ -171,7 +171,6 @@ h4 {
 #lightboxContent {
     max-width: 700px;
     max-height:85vh;
-
 }
 #lightboxContent .karthen img {
     width: 100%;
@@ -183,7 +182,7 @@ h4 {
     top: -5px;
     right: 15px;
     color: silver;
-    font-size: 40px;
+    font-size: 50px;
     cursor: pointer;
     z-index: 1001;
     transition: color 0.2s ease;
