@@ -8,7 +8,7 @@
     display: none;
 }
 main{
-    max-width: 1300px;
+    max-width: 1550px;
     height: auto;
     position: relative;
     margin: auto;
@@ -117,7 +117,8 @@ main{
 }
 @media (max-width: 768px) {
 main{
-    margin-top: 60px;
+    margin-top: 90px;
+    padding: 0;
 }
 
 .kategorie h1{

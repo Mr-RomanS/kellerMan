@@ -11,7 +11,8 @@ body {
   color: #333;
 }
 main {
-  max-width: 1300px;
+  max-width: 1550px;
+  min-height:80vh;
   margin: 120px auto 1rem;
   background: #fff;
   padding: 2rem;
@@ -104,6 +105,10 @@ form > div {
   gap: 1rem;
 }
 @media (max-width: 768px){
+  main{
+    margin-top: 90px;
+    padding: 1rem;
+  }
   #kontaktMap{
   display: flex;
   flex-direction: column;
