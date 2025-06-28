@@ -5,7 +5,6 @@
   padding: 0;
   font-family: 'Raleway', sans-serif;
 }
-
 body {
   background: #f5f7fa;
   color: #333;
@@ -51,7 +50,6 @@ form {
   flex-direction: column;
   gap: 1rem;
 }
-
 input[type="text"],
 input[type="email"],
 textarea {
@@ -61,14 +59,12 @@ textarea {
   font-size: 1rem;
   transition: border 0.3s;
 }
-
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
   border-color: black;
   outline: none;
 }
-
 button,
 input[type="reset"] {
   padding: 0.75rem 1.5rem;
@@ -78,27 +74,22 @@ input[type="reset"] {
   cursor: pointer;
   transition: background 0.3s ease;
 }
-
 button {
   background-color: black;
   color: white;
   font-size: 1.3rem;
 }
-
 button:hover {
   background-color: green;
 }
-
 input[type="reset"] {
   background-color: #e0e0e0;
   color: #333;
   margin-left: 1rem;
 }
-
 input[type="reset"]:hover {
   background-color: #c4c4c4;
 }
-
 form > div {
   display: flex;
   justify-content: flex-start;
@@ -116,6 +107,7 @@ form > div {
 #formKontakt{
   width: 100%;
  margin: auto;
+ padding:0 0  3rem 0;
 }
 iframe{
   width:100%;

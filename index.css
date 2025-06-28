@@ -62,8 +62,6 @@ main{
     background: linear-gradient(to top, #4b4242, #1c1c1c);
 }
 .haupt-menu{
-    
-    
     position: relative;
 }
 .haupt-menu ul{
@@ -77,10 +75,10 @@ main{
 .haupt-menu li{
     width: auto;
     height: auto;
-    padding: 1rem;
     list-style: none;
     box-shadow: -5px 5px 5px white;
     border-radius: 30px;
+    padding: 1rem;
     margin-bottom:2rem ;
     background-color:#312e2e ;
 }
@@ -92,6 +90,7 @@ main{
     text-decoration: none;
     text-transform: uppercase;
     color: 	#e0b84c;
+    margin-left: 2rem;
 }
 .prew{
     width: 50%;
@@ -177,14 +176,12 @@ main{
     justify-content: center;
     z-index: 9999;
 }
-
 #lightbox img {
     max-width: 90%;
     max-height: 80%;
     box-shadow: 0 0 10px white;
     border-radius: 10px;
 }
-
 #closeBtn {
     position: absolute;
     top: -5px;
@@ -195,14 +192,15 @@ main{
     z-index: 10000;
 }
 #closeBtn:hover {
-    color: #ff6b6b;
+    color: red;
 }
-
-
 .top-menu{
     display: none;
 }
 @media (max-width:1050px) {
+    .section-1{
+        height: 600px;
+    }
 .haupt-menu ul{
     display: none;
 }
@@ -224,7 +222,6 @@ main{
     flex-direction: column;
 }
 }
-
 @media (max-width:850px){
 
 .prew p{

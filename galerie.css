@@ -31,7 +31,6 @@ main{
     display: table;
     clear: both;
 }
-
 .kategorie h1{
     font-size: 3rem;
     width: auto;
@@ -91,7 +90,7 @@ main{
   z-index: 9999;
 }
 #lightbox img {
-  max-width: 90%;
+    max-width: 90%;
     max-height: 80%;
     box-shadow: 0 0 10px white;
     border-radius: 10px;
@@ -105,7 +104,7 @@ main{
   cursor: pointer;
 }
 #closeBtn:hover {
-    color: #ff6b6b;
+    color: red;
 }
 @media (max-width:1050px){
 .galerie{
@@ -120,7 +119,6 @@ main{
     margin-top: 90px;
     padding: 0;
 }
-
 .kategorie h1{
     font-size: 1.8rem;
 }
@@ -131,22 +129,13 @@ main{
 .kategorie img{
     width: 150px;
 }
-
-
-  #lightbox img {
+#lightbox img {
     width: 90vw;
     height: auto;
     max-height: 90vh;
     object-fit: contain;
-  }
-
-  /* #closeBtn {
-    font-size: 50px;
-    top: 30px;
-    right: 30px;
-    color: rgb(156, 7, 7);
-  } */
-  .galerie{
+}
+.galerie{
     grid-template-columns: repeat(1, 1fr);
 }
 }
