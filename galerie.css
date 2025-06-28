@@ -68,8 +68,8 @@ main{
     width: 250px;
     height: 30px;
     position: absolute;
-    bottom: 50px;
-    left: 51%;
+    left: 50%;
+    bottom: -10px;
     transform: translateX(-50%);
     text-decoration: none;
     text-transform: uppercase;
