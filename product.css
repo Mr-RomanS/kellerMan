@@ -159,10 +159,15 @@ h4 {
    
 }
 @media (max-width: 750px) {
-    .product {
+    main {
+
+    padding: 2rem 10px;
+ 
+}
+.product {
         grid-template-columns: 1fr;
     }
-    #lightbox {
+#lightbox {
    padding: 5px;
 }
 #lightboxContent {
